@@ -1,0 +1,29 @@
+.first-card , .second-card , .third-card {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.first-card{
+    margin-top: 5%;
+}
+
+.first-card img {
+  border-radius: 5px;
+  box-shadow: 0px 8px 12px 1px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  justify-content: center;
+  height: 80%;
+}
+.second-card img {
+  border-radius: 5px;
+  box-shadow: 0px 8px 12px 1px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  justify-content: center;
+  height: 80%;
+}
+.third-card img {
+  border-radius: 5px;
+  box-shadow: 0px 8px 12px 1px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  justify-content: center;
+  height: 80%;
+}

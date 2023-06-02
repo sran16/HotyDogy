@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/icon-url.png" />
+    <title>HOTYDOG</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.3/leaflet.min.css"
+      integrity="sha512-KJRB1wUfcipHY35z9dEE+Jqd+pGCuQ2JMZmQPAjwPjXuzz9oL1pZm2cd79vyUgHQxvb9sFQ6f05DIz0IqcG1Jw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/styles.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav>
+        <ul>
+          <li><a class="lign textnav" href="index.html">Accueil</a></li>
+          <li><a class="textnav" href="histoire.html">Histoire</a></li>
+          <li><a class="textnav" href="carte.html">Carte</a></li>
+        </ul>
+      </nav>
+
+      <div class="home d-flex justify-content-center">
+        <a href="index.html">
+          <img src="img/logo2.png" alt="logo" class="img-fluid logo" />
+        </a>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <!-- First section  -->
+      <section class="first-section mt-5">
+        <article class="first row">
+          <div class="restaurent-rep col-6">
+            <img
+              src="img/restaurant-entr.png"
+              alt="entrer"
+              class="img-first img-fluid"
+            />
+            <img
+              src="img/restaurant.png"
+              alt="restaurant"
+              class="mt-5 img-first img-fluid"
+            />
+          </div>
+          <div class="col-6 description">
+            <h2><strong>HOTYDOG</strong></h2>
+            <p>
+              Bienvenue chez HotyDogy, le repère incontournable des amateurs de
+              hot dogs à Paris ! Niché au cœur de la ville des lumières, notre
+              restaurant est une véritable ode à la gourmandise et à
+              l'innovation culinaire.
+            </p>
+            <p>
+              Chez HotyDogy, nous sommes passionnés par l'art de créer des hot
+              dogs uniques et délicieux. Nous nous efforçons de repousser les
+              limites de la créativité culinaire en associant des ingrédients
+              frais et de qualité supérieure pour proposer des combinaisons de
+              saveurs surprenantes et inoubliables.
+            </p>
+            <p>
+              Notre menu varié offre une large sélection de hot dogs, allant des
+              classiques intemporels aux créations gastronomiques innovantes.
+              Que vous soyez un adepte des saveurs épicées, des mélanges de
+              saveurs internationales ou des combinaisons plus traditionnelles,
+              nous avons le hot dog parfait qui saura satisfaire votre palais.
+            </p>
+            <p>
+              Chez HotyDogy, nous sommes fiers de notre emplacement privilégié à
+              Paris, entouré de sites touristiques et d'une atmosphère vibrante.
+              Que vous soyez un local ou un voyageur en quête d'une pause
+              gourmande, notre restaurant est l'endroit idéal pour combler votre
+              appétit avec nos hot dogs savoureux.
+            </p>
+            <p>
+              Venez nous rejoindre chez HotyDogy et découvrez l'art de déguster
+              un hot dog comme jamais auparavant. Laissez-vous surprendre par
+              nos créations culinaires uniques, partagez des moments conviviaux
+              avec vos proches et savourez chaque instant de cette expérience
+              gourmande à Paris.
+            </p>
+            <a href="histoire.html" class="home-button"
+              >Decouvrir l'histoire du HotDog ...</a
+            >
+          </div>
+        </article>
+      </section>
+      <!--carte home -->
+      <section class="mt-5 pt-5 pb-5 bg-dark">
+        <article class="container">
+          <h2 class="row justify-content-center text-light mb-5">À la carte</h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <!-- <div class="card h-100 bg-dark">
+                <img
+                  src="img/menu/choux2.jfif"
+                  class="card-img-top testchoux"
+                  alt="entré"
+                />
+                <div class="card-body bg-dark">
+                  <p class="text-center">
+                    <a href="carte.html">Entrées</a>
+                  </p>
+                </div>
+              </div> -->
+              <div class="card h-100 bg-dark">
+                <img
+                  src="img/menu/choux2.jfif"
+                  class="card-img-top"
+                  alt="plat"
+                />
+                <div class="card-body">
+                  <p class="text-center">
+                    <a href="carte.html">Entrées</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 bg-dark">
+                <img
+                  src="img/menu/hotyhome.jfif"
+                  class="card-img-top"
+                  alt="plat"
+                />
+                <div class="card-body">
+                  <p class="text-center">
+                    <a href="carte.html">Plats</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 bg-dark">
+                <img
+                  src="img/menu/icez.jfif"
+                  class="card-img-top"
+                  alt="dessert"
+                />
+                <div class="card-body">
+                  <p class="text-center">
+                    <a href="carte.html">Desserts</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!--chef-->
+      <section class="container mt-5 mb-5">
+        <article class="row">
+          <div class="row col-8">
+            <img src="img/chef3.png" alt="chef image" class="col-4" />
+            <div class="col-8">
+              <h3 class="mb-4 h2">Toma Dalca</h3>
+              <p>
+                un chef spécialisé dans la création de hot dogs uniques et
+                savoureux. Avec son talent culinaire exceptionnel, il transforme
+                ce plat classique en une expérience gustative inoubliable. Toma
+                utilise des ingrédients frais et de qualité pour préparer des
+                hot dogs aux combinaisons de saveurs audacieuses.
+              </p>
+              <p>
+                Ses créations sont à la fois délicieuses et surprenantes,
+                offrant aux amateurs de hot dogs une expérience culinaire hors
+                du commun.
+              </p>
+              <p>
+                Il est déterminé à redéfinir les attentes des amateurs de hot
+                dog et à faire de ce plat humble une expérience culinaire
+                mémorable. Sa passion, son talent et son sens de l'innovation
+                font de lui une référence incontournable dans le monde des hot
+                dogs gastronomiques.
+              </p>
+            </div>
+          </div>
+          <div class="col-4 adress p-5">
+            <h3 class="mb-4 h2 row justify-content-center">Nos adresses</h3>
+            <address>
+              <strong>HotyDogy</strong>
+              <br />24 Rue du Faubourg Saint-Honoré,<br />75008 Paris <br /><a
+                href="tel:+1 42 36 78 90"
+                class="text-black"
+                >+1 42 36 78 90</a
+              >
+            </address>
+            <address>
+              <strong>GoodDog</strong>
+              <br />14 Rue de Rivoli,<br />75004 Paris <br /><a
+                href="tel:+1 58 79 45 23"
+                class="text-black"
+                >+1 58 79 45 23</a
+              >
+            </address>
+          </div>
+        </article>
+      </section>
+    </main>
+    <!--footer-->
+
+    <footer class="footer bg-dark text-light">
+      <div class="container">
+        <div class="row">
+          <div class="">
+            <p>SAIDI RANIM , B1 Rev 2022-23</p>
+            <a><i class="fab fa-linkedin"></i> </a>
+          </div>
+          <div class="">
+            <a href="mentions.html">Mentions légales</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class=" ">
+            <p>
+              Site réalisé dans le cadre d'une formation Bachelor développeur
+              web à l'<a href="https://ecole-du-digital.com/">ESD</a> Paris
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

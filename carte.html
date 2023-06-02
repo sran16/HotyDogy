@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/icon-url.png" />
+    <title>Carte</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.3/leaflet.min.css"
+      integrity="sha512-KJRB1wUfcipHY35z9dEE+Jqd+pGCuQ2JMZmQPAjwPjXuzz9oL1pZm2cd79vyUgHQxvb9sFQ6f05DIz0IqcG1Jw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="css/styles.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav>
+        <ul>
+          <li><a class="textnav" href="index.html">Accueil</a></li>
+          <li><a class="textnav" href="histoire.html">Histoire</a></li>
+          <li><a class="lign textnav" href="carte.html">Carte</a></li>
+        </ul>
+      </nav>
+
+      <div class="cartehead d-flex justify-content-center">
+        <a href="index.html">
+          <img src="img/logo2.png" alt="logo" class="img-fluid logo" />
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <!-- Intro -->
+      <div>
+        <h2 class="text-center mt-5">La carte</h2>
+        <p class="text-center">
+          Explorez les créations uniques du chef Hotdog Master.
+        </p>
+        <p class="text-center">
+          Laissez-vous emporter dans un périple gustatif au cœur des saveurs
+          audacieuses du hot-dog revisité !
+        </p>
+      </div>
+
+      <!--first card -->
+      <section class="row first-card">
+        <article class="col-5">
+          <img class="img-fluid" src="img/menu/nachos.jfif" />
+        </article>
+        <article class="col-7">
+          <h3 class="mb-3" >Entrées</h3>
+          <div class="name-price d-flex justify-content-between">
+            <h5>Nachos</h5>
+            <p>4,50€</p>
+          </div>
+          <p>Chips de maïs garnies de fromage fondu .</p>
+          <hr />
+          <div class="name-price d-flex justify-content-between">
+            <h5>Salade de chou</h5>
+            <p>5,00€</p>
+          </div>
+          <p>
+            Chou râpé, de la mayonnaise, du vinaigre, du sucre et des épices .
+          </p>
+          <hr />
+          <div class="name-price d-flex justify-content-between">
+            <h5>Frites</h5>
+            <p>2,50€</p>
+          </div>
+          <p>
+            Frites classiques , frites de patates douces , frites de courgettes
+            .
+          </p>
+          <hr />
+        </article>
+      </section>
+
+      <!--second card -->
+      <section class="row second-card">
+        <article class="col-7">
+          <h3 class="mb-3" >Plats</h3>
+          <div class="name-price d-flex justify-content-between">
+            <h5>Hot-dog américain</h5>
+            <p>8,5</p>
+          </div>
+          <p>Une saucisse de Francfort insérée dans un pain à hot-dog .</p>
+          <p>
+            Garni de moutarde, de ketchup, de relish sucrée, d'oignons hachés,
+            de cornichons et parfois de choucroute .
+          </p>
+          <hr />
+          <div class="name-price d-flex justify-content-between">
+            <h5>Coney Dog</h5>
+            <p>10,50€</p>
+          </div>
+          <p>
+            Une saucisse de Francfort recouverte d'une sauce à base de viande
+            hachée , d'oignons hachés et de moutarde dans un pain à hot-dog.
+          </p>
+          <hr />
+          <div class="name-price d-flex justify-content-between">
+            <h5>Sonoran Dog</h5>
+            <p>11,50€</p>
+          </div>
+          <p>
+            Une saucisse de Francfort enveloppé dans une tortilla garnie de
+            haricots, de tomates, d'oignons, de mayonnaise, de moutarde, de
+            ketchup, de jalapeños et de salsa.
+          </p>
+          <hr />
+        </article>
+        <article class="col-5">
+          <img class="img-fluid" src="img/test1.png" />
+        </article>
+      </section>
+      <!--third card-->
+      <section class="row third-card">
+        <article class="col-5">
+          <img class="img-fluid" src="img/menu/ice.jfif" />
+        </article>
+        <article class="col-7">
+          <h3 class="mb-3" >Dessertss</h3>
+          <div class="name-price d-flex justify-content-between">
+            <h5>Sundae à la glace</h5>
+            <p>5,50€</p>
+          </div>
+          <p>Une boule ou deux de votre saveur de glace préférée</p>
+          <p>Garnier de sauce au chocolat, de chantilly, de noix concassée</p>
+          <hr />
+          <div class="name-price d-flex justify-content-between">
+            <h5>Tarte aux fruits</h5>
+            <p>5,00€</p>
+          </div>
+          <p>Tarte aux pommes, la tarte aux cerises , la tarte aux fraises.</p>
+          <hr />
+          <div class="name-price d-flex justify-content-between">
+            <h5>Brownie</h5>
+            <p>3,50€</p>
+          </div>
+          <p>moelleux et chocolaté .</p>
+          <hr />
+        </article>
+      </section>
+    </main>
+    <!--footer-->
+    <footer class="footer bg-dark text-light">
+      <div class="container">
+        <div class="row">
+          <div class="">
+            <p>SAIDI RANIM , B1 Rev 2022-23</p>
+            <a><i class="fab fa-linkedin"></i></a>
+          </div>
+          <div class="">
+            <a href="mentions.html">Mentions légales</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class=" ">
+            <p>
+              Site réalisé dans le cadre d'une formation Bachelor développeur
+              web à l'<a href="https://ecole-du-digital.com/">ESD</a> Paris
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

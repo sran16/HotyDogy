@@ -1,0 +1,42 @@
+$warning: rgb(255, 81, 0);
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/variables-dark";
+@import "bootstrap/maps";
+
+// $griso: #dcdcdc;
+// $black: #222222;
+// $red: #f85a40;
+// $custom-colors: (
+//   "ran": $ran,
+//   "black": $black,
+//   "red": $red,
+// );
+
+// $theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "bootstrap/mixins";
+@import "bootstrap/utilities";
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/containers";
+@import "bootstrap/grid";
+
+@import "bootstrap/buttons";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+
+@import "bootstrap/helpers";
+
+@import "bootstrap/utilities/api";
+
+@import "_headerhome.scss";
+@import "_headers.scss";
+@import "_footer.scss";
+@import "_restaurant.scss";
+@import "_menu.scss";
+@import "_histoire.scss";

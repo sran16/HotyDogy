@@ -1,0 +1,52 @@
+header {
+  ul {
+    li {
+      display: inline-block;
+      margin: 0 20px;
+    }
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  color: black;
+}
+
+.textnav {
+  color: black;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  bottom: 40px;
+}
+
+.others {
+  background-image: url(../img/histoire-head.jpg);
+  background-size: cover;
+  height: 70vh;
+  box-shadow: 0px 8px 12px 1px rgba(0, 0, 0, 0.5);
+}
+
+.cartehead {
+  background-image: url(../img/menu1.png);
+  background-size: cover;
+  height: 70vh;
+  box-shadow: 0px 8px 12px 1px rgba(0, 0, 0, 0.5);
+}
+
+.legales {
+  background-image: url(../img/mentions.jpg);
+  background-size: cover;
+  height: 70vh;
+  box-shadow: 0px 8px 12px 1px rgba(0, 0, 0, 0.5);
+}
+
+.lign {
+  border-bottom: 2px rgb(255, 81, 0) solid;
+}

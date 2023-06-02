@@ -1,0 +1,39 @@
+
+header {
+  ul {
+    li {
+      display: inline-block;
+      margin: 0 20px;
+    }
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  color: black;
+}
+
+.textnav {
+  color: black;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  bottom: 40px;
+}
+
+.home {
+  background-image: url(../img/dogy1.jpg);
+  background-size: cover;
+  height: 100vh;
+  box-shadow: 0px 8px 12px 1px rgba(0, 0, 0, 0.5);
+}
+
+.lign {
+  border-bottom: 2px rgb(255, 81, 0) solid;
+}
